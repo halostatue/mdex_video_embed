@@ -5,11 +5,19 @@
 
 - code :: <https://github.com/halostatue/mdex_video_embed>
 - issues :: <https://github.com/halostatue/mdex_video_embed/issues>
+- examples :: <https://github.com/halostatue/mdex_video_embed/tree/main/example>
 
-Privacy-respecting video embeds in Markdown with MDEx using a code block.
+Privacy-respecting video embeds in Markdown with [MDEx][mdex] using a code
+block.
 
 Currently supporting YouTube embeds with click-to-load consent and
-privacy-enhanced modes.
+privacy-enhanced modes. Local mode provides maximum privacy (no `iframe` until
+consent) but may require two clicks when browser auto-play policies apply.
+[EmbedLite](https://embedlite.com) mode directly embeds `iframe` for
+single-click playback.
+
+See the [MDEx plugins guide][mdex-plugins] for more information on using MDEx
+plugins.
 
 ## Privacy-First Design
 
@@ -57,6 +65,8 @@ MDExVideoEmbed follows [Semantic Versioning 2.0][semver].
 [docs]: https://hexdocs.pm/mdex_video_embed
 [hexpm]: https://hex.pm/packages/mdex_video_embed
 [licence]: https://github.com/halostatue/mdex_video_embed/blob/main/LICENCE.md
+[mdex-plugins]: https://hexdocs.pm/mdex/plugins.html
+[mdex]: https://hexdocs.pm/mdex/
 [semver]: https://semver.org/
 [shield-coveralls]: https://img.shields.io/coverallsCoverage/github/halostatue/mdex_video_embed?style=flat-square
 [shield-docs]: https://img.shields.io/badge/hex-docs-purple.svg?style=flat-square
