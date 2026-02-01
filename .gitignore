@@ -1,0 +1,12 @@
+.ez
+/.elixir_ls/
+/.fetch/
+/_build/
+/cover/
+/deps/
+/doc/
+/tmp/
+mdex_video_embed-*.tar
+erl_crash.dump
+/priv/plts/
+!test/fixtures/*
