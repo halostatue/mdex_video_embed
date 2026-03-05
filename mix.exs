@@ -3,7 +3,7 @@ defmodule MDExVideoEmbed.MixProject do
 
   @app :mdex_video_embed
   @project_url "https://github.com/halostatue/mdex_video_embed"
-  @version "1.0.0"
+  @version "1.0.1"
 
   def project do
     [
