@@ -203,9 +203,9 @@ defmodule MDExVideoEmbed do
         document
         |> Document.register_options([:video_embed_options])
         |> Document.put_options(video_embed_options: validated_options)
-        |> Document.append_steps(enable_unsafe: &enable_unsafe/1)
-        |> Document.append_steps(update_code_blocks: &update_code_blocks/1)
-        |> Document.append_steps(inject_resources: &inject_resources/1)
+        |> Document.append_steps(video_embed_enable_unsafe: &enable_unsafe/1)
+        |> Document.append_steps(video_embed_update_code_blocks: &update_code_blocks/1)
+        |> Document.append_steps(video_embed_inject_resources: &inject_resources/1)
 
       {:error, {provider, reason}} ->
         raise ArgumentError,
