@@ -1,7 +1,9 @@
 # MDExVideoEmbed
 
-[![Hex.pm][shield-hex]][hexpm] [![Hex Docs][shield-docs]][docs]
-[![Apache 2.0][shield-licence]][licence] ![Coveralls][shield-coveralls]
+[![Hex Version](https://img.shields.io/hexpm/v/mdex_video_embed?style=for-the-badge "Hex Version")](https://hex.pm/packages/mdex_video_embed)
+[![Hex Docs](https://img.shields.io/badge/hex-docs-lightgreen.svg?style=for-the-badge "Hex Docs")](https://hexdocs.pm/mdex_video_embed)
+[![Apache 2.0](https://img.shields.io/hexpm/l/mdex_video_embed?style=for-the-badge&label=licence "Apache 2.0")](https://github.com/halostatue/mdex_video_embed/blob/main/LICENCE.md)
+![Coverage](https://img.shields.io/coverallsCoverage/github/halostatue/mdex_video_embed?style=for-the-badge "Coverage")
 
 - code :: <https://github.com/halostatue/mdex_video_embed>
 - issues :: <https://github.com/halostatue/mdex_video_embed/issues>
