@@ -1,9 +1,11 @@
 # Licence
 
-- SPDX-License-Identifier: [Apache-2.0][apache-2]
+<!-- SPDX-License-Identifier: Apache-2.0 -->
 
-`MDExVideoEmbed` is copyright 2026 Austin Ziegler and is licensed under
-the [Apache License, version 2.0](licences/APACHE-2.0.txt).
+`MDExVideoEmbed` is copyright 2026 Austin Ziegler and is licensed under the
+[Apache License, version 2.0](licences/APACHE-2.0.txt).
+
+- SPDX Licence: [Apache-2.0][apache-2]
 
 ## Developer Certificate of Origin
 
